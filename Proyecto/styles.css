@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "OpenSansSemiBold","Microsoft YaHei","Helvetica Neue","PingFang SC","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif;
+}
+.menuNavegacion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+.logoEmpresa a{
+	padding-left: 10px;
+    color: #F5CA2A;
+    text-shadow: 2px 2px 2px white;
+    text-decoration: none;
+}
+.lista{
+    display: inline-block;
+    padding: 10px;
+    font-weight: bold;  
+}
+.lista a{
+	font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+.lista a:hover{
+    color: #F5CA2A;
+}
+.titulos{
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 400px;
+	height: 60px;
+	transition: 0.5s;
+}
+.titulos:hover{
+	background: #F5CA2A;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+.imagen{
+	margin: 20px;
+}
+.info{
+	color: #333;
+	margin: 20px;
+	font-size: 18px;
+}
+.iconos{
+	display: inline-block;
+	padding: 20px;
+	text-decoration: none;
+}
+.iconos img{
+	padding: 15px;
+	transition: 0.5s;
+}
+.iconos img:hover{
+	background: #F5CA2A;
+	border-radius: 20px;
+	transition: 0.5s;
+}
+.productosDestacados{
+	margin: auto;
+}
+.descripcionProducto{
+	margin: auto;
+}
+.botonComprar{
+	font-weight: bold;
+	padding: 15px;
+	border-radius: 10px;
+	background: #F5CA2A;
+}
